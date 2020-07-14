@@ -6,6 +6,11 @@
 .fr{
     color: red;
 }
+/* 浅灰色字体 */
+.fg{
+    font-size: 12px;
+    color: #cdcccb;
+}
 /* 字体贯穿线 */
 .flt{
     text-decoration: line-through;
@@ -13,9 +18,10 @@
 /* 红色渐变 */
 .frj{
     /* -webkit-background-clip: text; */
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    background: linear-gradient(90deg, #FF2A00, #FF00AF);
+    /* background: linear-gradient(90deg, #FF2A00, #FF00AF);
+    background-clip: text;
+    -webkit-background-clip: text; */
+    color: transparent;
 }
 /* 绿色渐变 */
 .flj{
