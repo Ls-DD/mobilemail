@@ -1,4 +1,38 @@
-// 倒计时
+ mySwiper = new Swiper ('.lb1', {
+    loop: true, // 循环模式选项
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+   
+    autoplay: {
+        delay: 1000,//1秒切换一次
+      },
+    
+  }) 
+  mySwiper = new Swiper ('.lb2', {
+    loop: true, // 循环模式选项
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+   
+    autoplay: {
+        delay: 1500,//1秒切换一次
+      },
+    
+  })    
+  mySwiper = new Swiper ('.lb3', {
+    direction: 'vertical', // 垂直切换选项
+    loop: true, // 循环模式选项
+    autoplay: {
+        delay: 1000,//1秒切换一次
+      },
+  })                   
+
+  // 倒计时
 time()
 setInterval(function(){
     time();

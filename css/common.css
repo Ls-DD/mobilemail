@@ -30,22 +30,21 @@
     background: linear-gradient(90deg, #2AD396, #85BB1F);
 }
 /* 底部导航 */
-#butnav{
-    width: 100%;
+#footer{
     height: 40px;
-    background-color: #fff;
+    background-color: white;
+}
+#footer ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
-    
 }
-#butnav>div>a{
+#footer ul>li>a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
     font-size: 12px;
-    align-items: center;
-    
+    line-height: 20px;
+    color: #8b8b8b;
 }
