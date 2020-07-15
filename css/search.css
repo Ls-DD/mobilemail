@@ -1,0 +1,89 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+}
+#head button{
+    border: none;
+    background-color: #E43130;
+    color: #fff;
+    font-size: 12px;
+    width: 40px;
+    outline: none;
+    line-height: 27px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#head{
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+#head>span{
+    flex: 1;
+}
+#head .searchbox{
+    flex: 4;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+#head .searchbox>input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+#head .searchbox>input:focus{
+    outline: none;
+
+}
+#head .sea{
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+/* 最近搜索 */
+#histroy{
+    background-color: white;
+    padding-top: 30px;
+    display: none;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.lookList{
+    display: flex;
+    justify-content: flex-start;
+    flex: row wrap;
+}
+.lookList li{
+    background-color: #F0F2F5;
+    color: #686868;
+    padding: 2px 12px;
+    margin-left: 10px;
+    line-height: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    position: relative;
+}
+.lookList a{
+    color: gray;
+}
+.lookList .det{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    cursor: pointer;
+}
