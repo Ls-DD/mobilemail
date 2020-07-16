@@ -1,0 +1,70 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+#main{
+    flex: 1;
+    overflow-y: scroll;
+}
+#main .infor{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+#main .infor>img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px; 
+}
+#main .order{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    background-color: white;
+}
+#main .order ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+#main .order ul a{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#main .fon1{
+    font-size: 36px;
+}
+#main .myorder{
+    padding: 10px;
+    background-color: white;
+}
+#main .myorder li{
+    border:1px solid #f6f6f6;
+    border-bottom: none;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main .myorder li:last-child{
+    border-bottom:1px solid #f6f6f6;
+}
+#main .myorder li a{ 
+    color: black;
+}
+#main .fon2{
+    font-size: 26px;
+    margin-right: 10px;
+    color: red;
+}
+#main .fon3{
+    font-size: 24px;
+    
+    color: #f6f6f6;
+}
