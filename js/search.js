@@ -92,3 +92,6 @@ function Trim(str, is_global) {
         result = result.replace(/\s/g, "");
     return result;
 }
+$("#back").click(function(){
+    history.go(-1);
+})

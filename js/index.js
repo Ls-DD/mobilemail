@@ -38,7 +38,7 @@ setInterval(function(){
     time();
 },1000)
 function time() {
-    let furtureDate = new Date("2020/7/16 00:00:00");
+    let furtureDate = new Date("2020/7/19 00:00:00");
     let nowDate = new Date();
     let chages = furtureDate - nowDate;
     // 计算天数
@@ -55,3 +55,7 @@ function time() {
     minutes.innerHTML<10? minutes.innerHTML ="0"+ minute:minutes.innerHTML = minute;
     seconds.innerHTML<10? seconds.innerHTML = "0"+second:seconds.innerHTML = second;
 }
+$("#search").focus(function () { 
+  location.href="search.html"
+   
+});
